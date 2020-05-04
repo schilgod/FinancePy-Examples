@@ -1,0 +1,14 @@
+# .gitignore
+__pycache__
+.spyproject
+.vscode
+dist
+financepy-examples.egg-info
+*.aux
+*.idx
+*.toc
+*.out
+build
+financepy/examples/ipynb_checkpoints/*.*
+*checkpoint*.*
+*.log
