@@ -9,6 +9,6 @@ financepy-examples.egg-info
 *.toc
 *.out
 build
-financepy/examples/ipynb_checkpoints/*.*
+.ipynb_checkpoints
 *checkpoint*.*
 *.log
