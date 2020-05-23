@@ -4,19 +4,16 @@ Created on Sun Feb 07 14:31:53 2016
 
 @author: Dominic O'Kane
 """
-from financepy.finutils.FinDate import FinDate
 
+import numpy as np
+
+from financepy.finutils.FinDate import FinDate
 from financepy.market.curves.FinInterpolate import interpolate, FinInterpMethods
 from financepy.market.curves.FinDiscountCurve import FinDiscountCurve
 from financepy.market.curves.FinFlatCurve import FinFlatCurve
 
-import numpy as np
-
-
-
-
-
 PLOT_GRAPHS = True
+
 
 def test_FinInterpolatedForwards():
 
@@ -31,7 +28,7 @@ def test_FinInterpolatedForwards():
     print(rValues)
     print(dfValues)
 
-    curveDate = FinDate(2019,1,3)
+    curveDate = FinDate(1, 3, 2019)
     for method in FinInterpMethods:
 
         discountCurve = FinDiscountCurve(curveDate, tValues, dfValues, method)
@@ -50,5 +47,7 @@ def test_FinInterpolatedForwards():
             plt.plot(tValues, rValues, 'o', color='g',  label="ZERO RATES")
             plt.legend()
 
-test_FinInterpolatedForwards()
+###############################################################################
 
+
+test_FinInterpolatedForwards()

@@ -5,18 +5,12 @@ Created on Fri Apr 08 09:26:27 2016
 @author: Dominic O'Kane
 """
 
-
 from financepy.market.curves.FinNelsonSiegelCurve import FinNelsonSiegelSvenssonCurve
 from financepy.finutils.FinMath import scale
 import matplotlib.pyplot as plt
 import numpy as np
 
-
-
-
-
-
-##########################################################################
+###############################################################################
 
 
 def test_FinNelsonSiegelSvenssonCurve():

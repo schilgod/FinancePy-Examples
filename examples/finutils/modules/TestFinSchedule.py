@@ -5,7 +5,8 @@ Created on Sun Feb 07 14:31:53 2016
 @author: Dominic O'Kane
 """
 
-from financepy.finutils.FinCalendar import FinDayAdjustTypes, FinDateGenRuleTypes
+from financepy.finutils.FinCalendar import FinDayAdjustTypes
+from financepy.finutils.FinCalendar import FinDateGenRuleTypes
 from financepy.finutils.FinSchedule import FinSchedule
 from financepy.finutils.FinFrequency import FinFrequencyTypes
 from financepy.finutils.FinCalendar import FinCalendarTypes

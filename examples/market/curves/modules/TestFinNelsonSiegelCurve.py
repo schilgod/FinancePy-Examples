@@ -5,17 +5,12 @@ Created on Fri Apr 08 09:26:27 2016
 @author: Dominic O'Kane
 """
 
-from financepy.finutils.FinDate import FinDate
+import numpy as np
+import matplotlib.pyplot as plt
 
+from financepy.finutils.FinDate import FinDate
 from financepy.market.curves.FinNelsonSiegelCurve import FinNelsonSiegelCurve
 from financepy.finutils.FinMath import scale
-import matplotlib.pyplot as plt
-import numpy as np
-
-
-
-
-
 
 PLOT_GRAPHS = False
 
