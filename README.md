@@ -1,6 +1,6 @@
 # FinancePy-Examples
 
-FinancePy-Examples is a library of example code that you can take and use to get started using FinancePy
+FinancePy-Examples is a library of example notebooks that you can download and use to get started using FinancePy
 
 ## Author
 
@@ -18,4 +18,4 @@ pip install --upgrade financepy
 
 ## Dependencies
 
-FinancePy depends on Numpy and Numba and Scipy.
+FinancePy depends on Numpy and Numba and Scipy
