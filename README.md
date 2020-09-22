@@ -22,7 +22,6 @@ You can also, if you wish, send me notebooks (or submit it via a pull request) t
 
 My name is Dr. Dominic O'Kane. I am a finance professor at the EDHEC Business School in Nice, France.
 
-
 ## Installation
 
 FinancePy can be installed from pip
@@ -35,4 +34,4 @@ or to upgrade an existing installation
 
 ## Dependencies
 
-FinancePy depends on Numpy and Numba and Scipy
+FinancePy depends on Numpy and Numba and Scipy.
